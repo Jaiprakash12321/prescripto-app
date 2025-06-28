@@ -63,24 +63,11 @@ Create .env files in client and server with:
 
 bash
 # Start backend  
-
+cd backend/npm start
 # Start frontend  
 cd ../client && npm start  
-📂 Project Structure
-text
-healthcare-portal/  
-├── client/           # React frontend  
-│   ├── src/  
-│   │   ├── components/  
-│   │   ├── pages/    # Patient/Doctor/Admin views  
-│   │   └── ...  
-│  
-├── server/           # Express backend  
-│   ├── controllers/  
-│   ├── models/       # MongoDB schemas  
-│   ├── routes/       # API endpoints  
-│   └── ...  
-🔒 Authentication Flow
+
+
 User registers with email/password
 
 Server issues JWT token
@@ -101,5 +88,5 @@ Payment records stored in database
 Automatic confirmation emails
 
 
-
+Appointment Booking System
 ![image](https://github.com/user-attachments/assets/89ebe6ed-6f3e-4755-8ceb-fa904824d51c)
