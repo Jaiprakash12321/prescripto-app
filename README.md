@@ -48,7 +48,7 @@ JWT Authentication, Stripe/RazorPay, Mongoose ODM
 Clone repo:
 
 bash
-git clone https://github.com/your-username/healthcare-portal.git   
+git clone https://github.com/Jaiprakash12321/prescripto-app.git
 Install dependencies:
 
 bash
